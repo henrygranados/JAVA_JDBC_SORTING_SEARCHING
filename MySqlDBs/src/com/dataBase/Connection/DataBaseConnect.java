@@ -47,7 +47,7 @@ public class DataBaseConnect {
 		LinkedList<customers> list = new LinkedList<customers>();
 		try {
 			
-			String query = "SELECT * FROM persons";
+			String query = "SELECT * FROM people";
 			rs = st.executeQuery(query);
 			System.out.println("Customers From DataBase");
 
